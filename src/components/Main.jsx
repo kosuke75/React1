@@ -1,10 +1,19 @@
-// Main.jsx
-import photos from './Image';  // img.jsxからデータをインポート
+import React from 'react';
+import Image from './Image'; 
+import Welcome from './Welcome';
 
 export default function Main() {
   return (
-    <section>
-      <h2>Favourite photos</h2>
-    </section>
+    <main>
+      <Welcome />
+      <aside>
+      <Image />
+      </aside>
+    </main>
   );
 }
+
+
+
+
+
